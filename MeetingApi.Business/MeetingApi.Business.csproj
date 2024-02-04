@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MeetingApi.Domain\MeetingApi.Domain.csproj" />
+    <ProjectReference Include="..\MeetingApi.Infrastructure\MeetingApi.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
